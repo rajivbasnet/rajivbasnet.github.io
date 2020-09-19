@@ -4,10 +4,18 @@ import { Carousel } from "react-bootstrap";
 import ReactRotatingText from "react-rotating-text";
 
 class Slider extends Component {
+
+  scrollTo = () => {
+    window.scrollTo({
+      top: document.querySelector(".slider").scrollHeight + document.querySelector(".navbartop").scrollHeight ,
+      behavior: "smooth",
+    });
+  };
+
   render() {
     return (
       <React.Fragment>
-        <Carousel>
+        <Carousel className= 'slider'>
           <Carousel.Item>
             <img className="bgimage d-block w-100" src={bgimg} alt="First slide" />
             <Carousel.Caption>
@@ -28,18 +36,19 @@ class Slider extends Component {
                 </p>
                 <p>
                  
-                <a
+                <div
                   className="header-socials-icon ml-4 mr-4"
                   // to="route"
                   rel="noopener noreferrer"
                   // target="_blank"
-                  href="#aboutme"
+                  onClick = {() => this.scrollTo()}
                   id = "arrowdown"
+                  style = {{border : "0px"}}
                 >
                   <span>
                     <i className="fa fa-arrow-down" style = {{marginTop: "5%"}}></i>
                   </span>
-                </a>
+                </div>
                 </p>
               </div>
             </Carousel.Caption>

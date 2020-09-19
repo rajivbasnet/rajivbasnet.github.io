@@ -20,6 +20,7 @@
     "react-rotating-text": "^1.4.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
+    "react-scroll-to-component": "^1.0.2",
     "react-toastify": "^4.5.2"
   },
   "scripts": {

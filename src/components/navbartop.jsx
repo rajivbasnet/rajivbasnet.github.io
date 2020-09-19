@@ -12,7 +12,7 @@ class NavBarTop extends Component {
       <React.Fragment>
         <div style={{ backgroundColor: "#212529" }}>
           <Container>
-            <Nav className="mr-auto justify-content-end">
+            <Nav className="navbartop mr-auto justify-content-end">
               {socials.map((social) => (
                 <Nav.Link
                   key={social._id}
