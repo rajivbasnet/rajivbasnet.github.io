@@ -7,7 +7,7 @@ class Slider extends Component {
 
   scrollTo = () => {
     window.scrollTo({
-      top: document.querySelector(".slider").scrollHeight + document.querySelector(".navbartop").scrollHeight ,
+      top: document.querySelector(".slider").scrollHeight + document.querySelector(".navbartop").scrollHeight + 2,
       behavior: "smooth",
     });
   };
@@ -25,14 +25,14 @@ class Slider extends Component {
                 </p> */}
                 <h3 className="myName"> &ndash; Rajiv Basnet &ndash; </h3>
                 <p>
-                  <ReactRotatingText
+                  {/* <ReactRotatingText
                     style={{ color: "#212529" }}
                     items={[
                       "I'm an aspiring Software + Data Engineer...",
                       "...enthusiastic about modern CI/CD practices...",
                       "...and I sing for fun.",
                     ]}
-                  />
+                  /> */}
                 </p>
                 <p>
                  

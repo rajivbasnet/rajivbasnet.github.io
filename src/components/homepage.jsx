@@ -23,7 +23,7 @@ class HomePage extends Component {
   }
   
   listenScrollEvent = (e) => {
-    if (window.scrollY > 400) {
+    if (window.scrollY > document.querySelector(".slider").scrollHeight + document.querySelector(".navbartop").scrollHeight) {
       this.setState({
         backgroundColor: "#22252a",
         color: "#ffffff",
@@ -69,10 +69,10 @@ class HomePage extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link onClick = {() => this.scToC(this.aboutme)} style = {{color: this.state.color}}> ABOUT ME </Nav.Link>
-              <Nav.Link onClick = {() => this.scToC(this.projects)} style = {{color: this.state.color}}> PROJECTS </Nav.Link>
+              <Nav.Link eventKey="1" onClick = {() => this.scToC(this.aboutme)} style = {{color: this.state.color}}> ABOUT ME </Nav.Link>
+              <Nav.Link eventKey="2" onClick = {() => this.scToC(this.projects)} style = {{color: this.state.color}}> PROJECTS </Nav.Link>
               <Nav.Link href = {this.state.links.resume} target = "_blank" style = {{color: this.state.color}}> RESUME </Nav.Link>
-              <Nav.Link onClick = {() => this.scToC(this.contact)} style = {{color: this.state.color}}> CONTACT </Nav.Link>
+              <Nav.Link eventKey="3" onClick = {() => this.scToC(this.contact)} style = {{color: this.state.color}}> CONTACT </Nav.Link>
             </Nav>
 
             <Nav className="justify-content-end">
