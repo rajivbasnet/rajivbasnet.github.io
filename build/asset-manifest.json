@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7410880b.chunk.css",
-    "main.js": "/static/js/main.25397982.chunk.js",
-    "main.js.map": "/static/js/main.25397982.chunk.js.map",
+    "main.css": "/static/css/main.babf7f44.chunk.css",
+    "main.js": "/static/js/main.cf72b4ae.chunk.js",
+    "main.js.map": "/static/js/main.cf72b4ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bde3a731.js",
     "runtime-main.js.map": "/static/js/runtime-main.bde3a731.js.map",
     "static/css/2.1432724e.chunk.css": "/static/css/2.1432724e.chunk.css",
-    "static/js/2.ed3b9694.chunk.js": "/static/js/2.ed3b9694.chunk.js",
-    "static/js/2.ed3b9694.chunk.js.map": "/static/js/2.ed3b9694.chunk.js.map",
+    "static/js/2.48e3898f.chunk.js": "/static/js/2.48e3898f.chunk.js",
+    "static/js/2.48e3898f.chunk.js.map": "/static/js/2.48e3898f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.53fae5b07505429b9b8827af60ec0ecc.js": "/precache-manifest.53fae5b07505429b9b8827af60ec0ecc.js",
+    "precache-manifest.426fc010a0512858fa630783e79ac597.js": "/precache-manifest.426fc010a0512858fa630783e79ac597.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1432724e.chunk.css.map": "/static/css/2.1432724e.chunk.css.map",
-    "static/css/main.7410880b.chunk.css.map": "/static/css/main.7410880b.chunk.css.map",
-    "static/js/2.ed3b9694.chunk.js.LICENSE.txt": "/static/js/2.ed3b9694.chunk.js.LICENSE.txt",
+    "static/css/main.babf7f44.chunk.css.map": "/static/css/main.babf7f44.chunk.css.map",
+    "static/js/2.48e3898f.chunk.js.LICENSE.txt": "/static/js/2.48e3898f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Arizonia-Regular.8bfbc526.ttf",
-    "static/media/bgimage1.jpg": "/static/media/bgimage1.b39ffa38.jpg",
-    "static/media/bgimage3.jpg": "/static/media/bgimage3.82ca3dc0.jpg",
+    "static/media/bgimage.jpg": "/static/media/bgimage.10cdd628.jpg",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/handtracking.png": "/static/media/handtracking.da21feda.png",
     "static/media/librarysearch.png": "/static/media/librarysearch.c006a644.png",
@@ -30,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.bde3a731.js",
     "static/css/2.1432724e.chunk.css",
-    "static/js/2.ed3b9694.chunk.js",
-    "static/css/main.7410880b.chunk.css",
-    "static/js/main.25397982.chunk.js"
+    "static/js/2.48e3898f.chunk.js",
+    "static/css/main.babf7f44.chunk.css",
+    "static/js/main.cf72b4ae.chunk.js"
   ]
 }
