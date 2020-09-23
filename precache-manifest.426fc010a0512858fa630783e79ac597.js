@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "188c6845b55fb9d24161d0bc172c4b17",
+    "revision": "d2ce37b7fd04e87db07aee504ef4ba0d",
     "url": "/index.html"
   },
   {
-    "revision": "d310c13cd8f4e9bf0ce2",
+    "revision": "8bc2e9e57f209ddd12f8",
     "url": "/static/css/2.1432724e.chunk.css"
   },
   {
-    "revision": "d890fbf867faa767714b",
-    "url": "/static/css/main.7410880b.chunk.css"
+    "revision": "e75e6fb0e322a3d4c87b",
+    "url": "/static/css/main.babf7f44.chunk.css"
   },
   {
-    "revision": "d310c13cd8f4e9bf0ce2",
-    "url": "/static/js/2.ed3b9694.chunk.js"
+    "revision": "8bc2e9e57f209ddd12f8",
+    "url": "/static/js/2.48e3898f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.ed3b9694.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.48e3898f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d890fbf867faa767714b",
-    "url": "/static/js/main.25397982.chunk.js"
+    "revision": "e75e6fb0e322a3d4c87b",
+    "url": "/static/js/main.cf72b4ae.chunk.js"
   },
   {
     "revision": "d637c7d320c7ab18c3a6",
@@ -32,12 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Arizonia-Regular.8bfbc526.ttf"
   },
   {
-    "revision": "b39ffa3879dd8986c9e481d0e4de23da",
-    "url": "/static/media/bgimage1.b39ffa38.jpg"
-  },
-  {
-    "revision": "82ca3dc0e39543a125dc1d105b2907cd",
-    "url": "/static/media/bgimage3.82ca3dc0.jpg"
+    "revision": "10cdd628acd0ad428686882744dcd6ca",
+    "url": "/static/media/bgimage.10cdd628.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
