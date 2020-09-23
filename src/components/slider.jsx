@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import bgimg from "./images/bgimage1.jpg";
+import bgimg from "./images/bgimage.jpg";
 import { Carousel } from "react-bootstrap";
 import ReactRotatingText from "react-rotating-text";
 
