@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ce60e759d0e180dc9757440ee98bd9e",
+    "revision": "12870563cd11644df09495e2b893e691",
     "url": "/index.html"
   },
   {
-    "revision": "1e97cc539d4f32b443b6",
+    "revision": "d310c13cd8f4e9bf0ce2",
     "url": "/static/css/2.1432724e.chunk.css"
   },
   {
-    "revision": "73cc5dd018a3011bf1b0",
+    "revision": "f75554e0278d266ac3e9",
     "url": "/static/css/main.0ad5684c.chunk.css"
   },
   {
-    "revision": "1e97cc539d4f32b443b6",
-    "url": "/static/js/2.6eb3d772.chunk.js"
+    "revision": "d310c13cd8f4e9bf0ce2",
+    "url": "/static/js/2.ed3b9694.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.6eb3d772.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ed3b9694.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73cc5dd018a3011bf1b0",
-    "url": "/static/js/main.e16725ef.chunk.js"
+    "revision": "f75554e0278d266ac3e9",
+    "url": "/static/js/main.1778aeae.chunk.js"
   },
   {
     "revision": "d637c7d320c7ab18c3a6",
@@ -32,8 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Arizonia-Regular.8bfbc526.ttf"
   },
   {
+    "revision": "667e26024ad871e07366386f34b9350b",
+    "url": "/static/media/bgimage.667e2602.jpg"
+  },
+  {
     "revision": "02481fc509a44ce7cacb8c8769ff2f7d",
-    "url": "/static/media/bgimage.02481fc5.jpg"
+    "url": "/static/media/bgimage2.02481fc5.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
