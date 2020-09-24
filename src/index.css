@@ -45,7 +45,7 @@ a {
 
 .carousel-caption h3 {
   z-index: 10;
-  margin-top: 22.5%;
+  margin-top: 7.5%;
   font-family: "Arizonia";
   color: #000000;
   font-size: 6vw;
@@ -55,6 +55,11 @@ a {
   color: #000000;
   font-size: 1.5vw;
 }
+
+.carousel-indicators {
+  display: none;
+}
+
 .fa {
   color: #ffffff;
 }
@@ -67,6 +72,7 @@ a {
   box-shadow: 0px 0px 2px #000000;
   padding: 0.5em 0.6em;
 }
+
 
 .fa:hover {
   color: #007efc;

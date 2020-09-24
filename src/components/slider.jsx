@@ -25,28 +25,28 @@ class Slider extends Component {
                 </p> */}
                 <h3 className="myName"> &ndash; Rajiv Basnet &ndash; </h3>
                 <p>
-                  {/* <ReactRotatingText
+                  <ReactRotatingText
                     style={{ color: "#212529" }}
                     items={[
                       "I'm an aspiring Software + Data Engineer...",
                       "...enthusiastic about modern CI/CD practices...",
                       "...and I sing for fun.",
                     ]}
-                  /> */}
+                  />
                 </p>
                 <p>
                  
                 <div
-                  className="header-socials-icon ml-4 mr-4"
+                  className="header-socials-icon"
                   // to="route"
-                  rel="noopener noreferrer"
+                  // rel="noopener noreferrer"
                   // target="_blank"
                   onClick = {() => this.scrollTo()}
                   id = "arrowdown"
-                  style = {{border : "0px"}}
+                  // style = {{border : "0px"}}
                 >
                   <span>
-                    <i className="fa fa-arrow-down" style = {{marginTop: "5%"}}></i>
+                    <i className="fa fa-arrow-down" style = {{marginTop: "0%"}}></i>
                   </span>
                 </div>
                 </p>
