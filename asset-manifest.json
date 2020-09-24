@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.babf7f44.chunk.css",
-    "main.js": "/static/js/main.cf72b4ae.chunk.js",
-    "main.js.map": "/static/js/main.cf72b4ae.chunk.js.map",
+    "main.css": "/static/css/main.0ad5684c.chunk.css",
+    "main.js": "/static/js/main.e16725ef.chunk.js",
+    "main.js.map": "/static/js/main.e16725ef.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bde3a731.js",
     "runtime-main.js.map": "/static/js/runtime-main.bde3a731.js.map",
     "static/css/2.1432724e.chunk.css": "/static/css/2.1432724e.chunk.css",
-    "static/js/2.48e3898f.chunk.js": "/static/js/2.48e3898f.chunk.js",
-    "static/js/2.48e3898f.chunk.js.map": "/static/js/2.48e3898f.chunk.js.map",
+    "static/js/2.6eb3d772.chunk.js": "/static/js/2.6eb3d772.chunk.js",
+    "static/js/2.6eb3d772.chunk.js.map": "/static/js/2.6eb3d772.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.426fc010a0512858fa630783e79ac597.js": "/precache-manifest.426fc010a0512858fa630783e79ac597.js",
+    "precache-manifest.a33b818bd3e0983c3ee308a33bb05409.js": "/precache-manifest.a33b818bd3e0983c3ee308a33bb05409.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1432724e.chunk.css.map": "/static/css/2.1432724e.chunk.css.map",
-    "static/css/main.babf7f44.chunk.css.map": "/static/css/main.babf7f44.chunk.css.map",
-    "static/js/2.48e3898f.chunk.js.LICENSE.txt": "/static/js/2.48e3898f.chunk.js.LICENSE.txt",
+    "static/css/main.0ad5684c.chunk.css.map": "/static/css/main.0ad5684c.chunk.css.map",
+    "static/js/2.6eb3d772.chunk.js.LICENSE.txt": "/static/js/2.6eb3d772.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Arizonia-Regular.8bfbc526.ttf",
-    "static/media/bgimage.jpg": "/static/media/bgimage.10cdd628.jpg",
+    "static/media/bgimage.jpg": "/static/media/bgimage.02481fc5.jpg",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/handtracking.png": "/static/media/handtracking.da21feda.png",
     "static/media/librarysearch.png": "/static/media/librarysearch.c006a644.png",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.bde3a731.js",
     "static/css/2.1432724e.chunk.css",
-    "static/js/2.48e3898f.chunk.js",
-    "static/css/main.babf7f44.chunk.css",
-    "static/js/main.cf72b4ae.chunk.js"
+    "static/js/2.6eb3d772.chunk.js",
+    "static/css/main.0ad5684c.chunk.css",
+    "static/js/main.e16725ef.chunk.js"
   ]
 }
