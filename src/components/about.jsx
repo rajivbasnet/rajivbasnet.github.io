@@ -53,9 +53,10 @@ class AboutMe extends Component {
                   thoughts for my future.
                 </p>
                 <p>
-                  I am currently working as a Software + Data Engineer Intern at
+                  I am currently working as a Software/Data Engineer Intern at
                   Tarifica and have experiences working on a full-stack with
-                  Python and JavaScript. I was also selected as a Data Science Student in 
+                  Python and JavaScript as well as with ETL pipelines. 
+                  I was also selected as a Data Science Student in 
                   Microsoft's DS3 Program where I learned research strategies, programming with R, 
                   data wrangling, analysis, and visualization.
                 </p>

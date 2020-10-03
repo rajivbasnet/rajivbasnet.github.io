@@ -17,7 +17,7 @@ class Slider extends Component {
       <React.Fragment>
         <Carousel className= 'slider'>
           <Carousel.Item>
-            <img className="bgimage d-block w-100" src={bgimg} alt="First slide" />
+            <img className="bgimage d-block w-100 h-2" src={bgimg} alt="First slide" />
             <Carousel.Caption>
               <div>
                 {/* <p className="textTop" style={{ color: "#212529" }}>
@@ -25,14 +25,14 @@ class Slider extends Component {
                 </p> */}
                 <h3 className="myName"> &ndash; Rajiv Basnet &ndash; </h3>
                 <p>
-                  <ReactRotatingText
+                  {/* <ReactRotatingText
                     style={{ color: "#212529" }}
                     items={[
                       "I'm an aspiring Software + Data Engineer...",
                       "...enthusiastic about modern CI/CD practices...",
                       "...and I sing for fun.",
                     ]}
-                  />
+                  /> */}
                 </p>
                 <p>
                  
