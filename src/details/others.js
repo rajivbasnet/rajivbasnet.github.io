@@ -1,5 +1,5 @@
 const links  = {
-    'resume' : 'https://drive.google.com/file/d/1N0PruF_PGEZXN38MPDUpM0U4Xjyqevbr/view?usp=sharing'
+    'resume' : 'https://drive.google.com/file/d/13veojZkmPgD3n2zRR_QjBPHTyp0a-60x/view?usp=sharing'
 }
 
 export function getLinks() {
