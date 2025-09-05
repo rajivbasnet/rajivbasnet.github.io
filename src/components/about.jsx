@@ -9,7 +9,6 @@ class AboutMe extends Component {
         <Container
           id="aboutme"
           data-spy="scroll"
-          data-target="#navbar-bottom"
           style={{ color: "#1a1a1a", fontFamily: "'Roboto', sans-serif", padding: "3rem 1rem" }}
         >
           <Row className="justify-content-center">

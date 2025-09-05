@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { getSocials } from "../details/social";
 
 class ContactNF extends Component {
@@ -15,8 +15,8 @@ class ContactNF extends Component {
         <Container
           id="contact"
           style={{
-            fontFamily: "'Roboto', sans-serif",
             color: "#34495e",
+            fontFamily: "'Roboto', sans-serif",
             padding: "3rem 1rem",
           }}
         >
@@ -34,25 +34,17 @@ class ContactNF extends Component {
               >
                 CONTACT
               </h2>
-              <hr
-                className="my-4"
-                style={{
-                  borderTop: "3px solid #3498db",
-                  width: "60px",
-                  margin: "0 auto 2rem auto",
-                }}
-              />
 
-              <Card
-                style={{
-                  backgroundColor: "#ffffff", // Keep it white
-                  border: "0px",
-                  padding: "2rem",
-                  textAlign: "center",
-                  boxShadow: "0 0px 0px rgba(0,0,0,0.05)",
-                }}
-              >
-                <p style={{ fontSize: "1.1rem", lineHeight: "1.8" }}>
+              <hr className="my-4" style={{ borderTop: "3px solid #3498db", width: "60px", margin: "0 auto 2rem auto" }} />
+
+              <div style={{ textAlign: "center" }}>
+                <p
+                  style={{
+                    fontSize: "1.1rem",
+                    lineHeight: "1.8",
+                    marginBottom: "2rem",
+                  }}
+                >
                   I would love to connect with like-minded professionals. Please feel free to reach out. I look forward to engaging, sharing ideas, and exploring opportunities to collaborate.
                 </p>
 
@@ -66,7 +58,7 @@ class ContactNF extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{
-                        color: "#2c3e50", // accent color
+                        color: "#2c3e50",
                         fontSize: "28px",
                         transition: "transform 0.2s, color 0.2s",
                       }}
@@ -84,28 +76,29 @@ class ContactNF extends Component {
                   ))}
                 </div>
 
+                {/* Email */}
                 <p style={{ fontSize: "1.1rem", marginTop: "1.5rem" }}>
                   <a
                     href="mailto:net.rajivbas@gmail.com"
-                    style={{ color: "#2c3e50", textDecoration: "none" }}
+                    style={{
+                      color: "#2c3e50",
+                      textDecoration: "none",
+                      transition: "transform 0.2s, color 0.2s",
+                    }}
                     onMouseEnter={(e) => {
-                        e.currentTarget.style.transform = "scale(1.2)";
-                        e.currentTarget.style.color = "#3498db";
+                      e.currentTarget.style.transform = "scale(1.05)";
+                      e.currentTarget.style.color = "#3498db";
                     }}
                     onMouseLeave={(e) => {
-                        e.currentTarget.style.transform = "scale(1)";
-                        e.currentTarget.style.color = "#2c3e50";
+                      e.currentTarget.style.transform = "scale(1)";
+                      e.currentTarget.style.color = "#2c3e50";
                     }}
                   >
-                    <i 
-                      className="fa fa-envelope mr-2" 
-                      style={{ marginRight: "10px" }}
-                      
-                    ></i>
+                    <i className="fa fa-envelope" style={{ marginRight: "8px" }}></i>
                     net.rajivbas@gmail.com
                   </a>
                 </p>
-              </Card>
+              </div>
             </Col>
           </Row>
         </Container>
