@@ -1,14 +1,10 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { getSocials } from "../details/social";
+import content from "../data/siteContent.json";
 
 class ContactNF extends Component {
-  state = {
-    socials: getSocials(),
-  };
-
   render() {
-    const { socials } = this.state;
+    const { contact } = content;
 
     return (
       <React.Fragment>
@@ -32,7 +28,7 @@ class ContactNF extends Component {
                   color: "#2c3e50",
                 }}
               >
-                CONTACT
+                {contact.heading}
               </h2>
 
               <hr className="my-4" style={{ borderTop: "3px solid #3498db", width: "60px", margin: "0 auto 2rem auto" }} />
@@ -43,16 +39,17 @@ class ContactNF extends Component {
                     fontSize: "1.1rem",
                     lineHeight: "1.8",
                     marginBottom: "2rem",
+                    color: "#34495e"
                   }}
                 >
-                  I would love to connect with like-minded professionals. Please feel free to reach out. I look forward to engaging, sharing ideas, and exploring opportunities to collaborate.
+                  {contact.description}
                 </p>
 
                 {/* Social Icons */}
                 <div className="my-4">
-                  {socials.map((social) => (
+                  {contact.socials.map((social) => (
                     <a
-                      key={social._id}
+                      key={social.id}
                       className="mx-3"
                       href={social.link}
                       target="_blank"
