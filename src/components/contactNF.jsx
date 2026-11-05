@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import content from "../data/siteContent.json";
 
 class ContactNF extends Component {
@@ -7,99 +6,21 @@ class ContactNF extends Component {
     const { contact } = content;
 
     return (
-      <React.Fragment>
-        <Container
-          id="contact"
-          style={{
-            color: "#34495e",
-            fontFamily: "'Roboto', sans-serif",
-            padding: "3rem 1rem",
-          }}
-        >
-          <Row className="justify-content-center">
-            <Col md={8}>
-              <h2
-                className="text-center font-weight-bold"
-                style={{
-                  fontFamily: "'Playfair Display', serif",
-                  fontSize: "2.5rem",
-                  letterSpacing: "2px",
-                  marginBottom: "1rem",
-                  color: "#2c3e50",
-                }}
-              >
-                {contact.heading}
-              </h2>
-
-              <hr className="my-4" style={{ borderTop: "3px solid #3498db", width: "60px", margin: "0 auto 2rem auto" }} />
-
-              <div style={{ textAlign: "center" }}>
-                <p
-                  style={{
-                    fontSize: "1.1rem",
-                    lineHeight: "1.8",
-                    marginBottom: "2rem",
-                    color: "#34495e"
-                  }}
-                >
-                  {contact.description}
-                </p>
-
-                {/* Social Icons */}
-                <div className="my-4">
-                  {contact.socials.map((social) => (
-                    <a
-                      key={social.id}
-                      className="mx-3"
-                      href={social.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{
-                        color: "#2c3e50",
-                        fontSize: "28px",
-                        transition: "transform 0.2s, color 0.2s",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.transform = "scale(1.2)";
-                        e.currentTarget.style.color = "#3498db";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.transform = "scale(1)";
-                        e.currentTarget.style.color = "#2c3e50";
-                      }}
-                    >
-                      <i className={social.icon_class}></i>
-                    </a>
-                  ))}
-                </div>
-
-                {/* Email */}
-                <p style={{ fontSize: "1.1rem", marginTop: "1.5rem" }}>
-                  <a
-                    href="mailto:net.rajivbas@gmail.com"
-                    style={{
-                      color: "#2c3e50",
-                      textDecoration: "none",
-                      transition: "transform 0.2s, color 0.2s",
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = "scale(1.05)";
-                      e.currentTarget.style.color = "#3498db";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = "scale(1)";
-                      e.currentTarget.style.color = "#2c3e50";
-                    }}
-                  >
-                    <i className="fa fa-envelope" style={{ marginRight: "8px" }}></i>
-                    net.rajivbas@gmail.com
-                  </a>
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </React.Fragment>
+      <section id="contact" className="section" aria-labelledby="contact-heading">
+        <h2 id="contact-heading" className="section-heading">{contact.heading}</h2>
+        <div className="callout">
+          <p className="section-text">{contact.description}</p>
+          <ul className="callout-links">
+            {contact.socials.map((s) => (
+              <li key={s.id}>
+                <a href={s.link} target="_blank" rel="noopener noreferrer">
+                  <i className={s.icon_class} aria-hidden="true" /> {s.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
     );
   }
 }
