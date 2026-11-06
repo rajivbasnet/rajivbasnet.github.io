@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.01518433.css",
-    "main.js": "/static/js/main.0fc67f88.js",
+    "main.css": "/static/css/main.a2cc4f58.css",
+    "main.js": "/static/js/main.d6d57c60.js",
+    "static/media/04-sedona.jpg": "/static/media/04-sedona.253cc572c8a7370efed4.jpg",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/05-basantapur.jpg": "/static/media/05-basantapur.adf9db463a1e9845ac26.jpg",
+    "static/media/06-bouddha.jpg": "/static/media/06-bouddha.a4956a8375a3c483a909.jpg",
+    "static/media/01-zion.jpg": "/static/media/01-zion.9fc575929ef267b88a9f.jpg",
+    "static/media/03-pokhara.jpg": "/static/media/03-pokhara.252967fafda77eed82b0.jpg",
+    "static/media/profilepic.jpeg": "/static/media/profilepic.447368c2400d5afafba2.jpeg",
+    "static/media/07-sunset.jpg": "/static/media/07-sunset.17710a11e9f0ca98735a.jpg",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
-    "static/media/profilepic.jpg": "/static/media/profilepic.83e4ed31e57caab603cd.jpg",
+    "static/media/02-grand-canyon.jpg": "/static/media/02-grand-canyon.1ad10a71f0e3f0236781.jpg",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
-    "main.01518433.css.map": "/static/css/main.01518433.css.map",
-    "main.0fc67f88.js.map": "/static/js/main.0fc67f88.js.map"
+    "main.a2cc4f58.css.map": "/static/css/main.a2cc4f58.css.map",
+    "main.d6d57c60.js.map": "/static/js/main.d6d57c60.js.map"
   },
   "entrypoints": [
-    "static/css/main.01518433.css",
-    "static/js/main.0fc67f88.js"
+    "static/css/main.a2cc4f58.css",
+    "static/js/main.d6d57c60.js"
   ]
 }
