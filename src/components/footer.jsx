@@ -1,29 +1,7 @@
-import React, { Component } from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import React from "react";
 
-class Footer extends Component {
-  state = {};
-  render() {
-    return (
-      <React.Fragment>
-        <div style={{ backgroundColor: "#ffffff" }}>
-          <Container>
-            <footer>
-              {" "}
-              <Row>
-                {" "}
-                <Col>
-                  <div className="d-flex justify-content-center text-secondary">
-                    {/* <p> © 2020 Rajiv Basnet. All Rights Reserved</p> */}
-                  </div>
-                </Col>
-              </Row>
-            </footer>
-          </Container>
-        </div>
-      </React.Fragment>
-    );
-  }
-}
+const Footer = () => (
+  <footer className="site-footer">© {new Date().getFullYear()} Rajiv Basnet</footer>
+);
 
 export default Footer;
