@@ -4,6 +4,7 @@ import Layout from "./components/layout";
 import HomePage from "./components/homepage";
 import Beyond from "./components/beyond";
 import AllSongs from "./components/allsongs";
+import AllPhotos from "./components/allphotos";
 import SongPage from "./components/songpage";
 import "./App.css";
 
@@ -15,6 +16,7 @@ function App() {
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="beyond-engineering" element={<Beyond />} />
+          <Route path="beyond-engineering/travel" element={<AllPhotos />} />
           <Route path="beyond-engineering/songs" element={<AllSongs />} />
           <Route path="beyond-engineering/:slug" element={<SongPage />} />
           <Route path="*" element={<HomePage />} />

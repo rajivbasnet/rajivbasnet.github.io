@@ -8,7 +8,8 @@
     "heading": "ABOUT ME",
     "paragraphs": [
       "I’m a software engineer focused on data platforms, automation, and robust backend APIs. I’m passionate about distributed systems, infrastructure, and solving complex problems to create efficient, resilient solutions.",
-      "My interest in computing and mathematics dates back to eighth grade, when I began exploring how mathematical concepts could be transformed into software solutions to solve practical problems. I graduated from <strong>St. Joseph’s University</strong> in 2021 with a <strong>B.S. in Computer Science &amp; Mathematics</strong>. Along the way, I joined the <strong>DS3 Program at Microsoft Research NYC</strong> and interned at <strong>Tarifica</strong>, where I built data systems and dashboards to support analysis and decision-making, an experience that sparked my passion for data-driven solutions.",
+      "My interest in computing and mathematics dates back to eighth grade, when I began exploring how mathematical concepts could be transformed into software solutions to solve practical problems.",
+      "I graduated from <strong>St. Joseph’s University</strong> in 2021 with a <strong>B.S. in Computer Science &amp; Mathematics</strong>. Along the way, I joined the <strong>DS3 Program at Microsoft Research NYC</strong> and interned at <strong>Tarifica</strong>, where I built data systems and dashboards to support analysis and decision-making, an experience that sparked my passion for data-driven solutions.",
       "Since graduating, I’ve worked at <strong>Middesk</strong> and <strong>Ribbon Health</strong>, designing production data pipelines, building entity resolution and master data management (MDM) platforms, optimizing backend APIs for enterprise-scale operations, and developing systems that prioritize performance, reliability, and data quality. These experiences have strengthened my expertise in backend engineering, cloud platforms and modern data architecture.",
       "As software continues to evolve with AI, I enjoy exploring new technologies, building automation and developer tooling, and creating the data infrastructure that powers reliable, scalable and intelligent applications.",
       "Outside of work, I enjoy movies, travel, and music."
@@ -47,6 +48,14 @@
     "heading": "Travel",
     "intro": "Few frames from the road.",
     "emptyTitle": "will post soon...",
-    "captions": {}
+    "captions": {
+      "01-zion.jpg": "Zion National Park",
+      "02-grand-canyon.jpg": "Sunset Sky at Grand Canyon",
+      "03-pokhara.jpg": "Pokhara, Nepal",
+      "04-sedona.jpg": "Sedona",
+      "05-basantapur.jpg": "Basantapur, Nepal",
+      "06-bouddha.jpg": "Bouddha, Nepal",
+      "07-sunset.jpg": "Sunset"
+    }
   }
 }

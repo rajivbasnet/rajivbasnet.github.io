@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import content from "../data/siteContent.json";
-import profilepic from "./images/profilepic.jpg";
+import profilepic from "./images/profilepic.jpeg";
 
 const BEYOND = "/beyond-engineering";
 
@@ -87,7 +87,7 @@ function Sidebar() {
     <header className="sidebar">
       <div>
         {onHome && (
-          <img src={profilepic} alt={`Portrait of ${profile.name}`} className="sidebar-photo" width="96" height="96" />
+          <img src={profilepic} alt={`Portrait of ${profile.name}`} className="sidebar-photo" width="116" height="116" />
         )}
         <h1 className="sidebar-name"><Link to="/">{profile.name}</Link></h1>
         <p className="sidebar-title">{profile.title}</p>
